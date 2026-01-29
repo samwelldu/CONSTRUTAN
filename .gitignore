@@ -1,0 +1,21 @@
+# Dependencias (Lo más importante)
+node_modules/
+
+# Logs (Archivos de registro de errores)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables de entorno (¡SECRETOS! Nunca subas esto)
+.env
+.env.local
+
+# Carpetas de compilación (Si usas React, Next.js, etc.)
+dist/
+build/
+.next/
+out/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

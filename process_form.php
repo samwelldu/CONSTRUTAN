@@ -14,8 +14,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email content
-    $recipient = "contacto@construtan.cl";
-    $subject = "Nuevo Contacto Web de $nombre";
+    $recipient = "contacto@digitan.cl";
+    $subject = "Nuevo Contacto Web de ConstruTan $nombre";
     $email_content = "Nombre: $nombre\n";
     $email_content .= "Email: $email\n";
     $email_content .= "Teléfono: $telefono\n\n";
