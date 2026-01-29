@@ -37,6 +37,15 @@
         .nav-item:hover::after {
             width: 100%;
         }
+
+        /* Fallback for mobile menu visibility to prevent FOUC/Layout shift */
+        .-translate-x-full {
+            transform: translateX(-100%) !important;
+        }
+
+        .translate-x-full {
+            transform: translateX(100%) !important;
+        }
     </style>
 </head>
 
